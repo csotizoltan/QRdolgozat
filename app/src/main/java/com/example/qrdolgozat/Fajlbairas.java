@@ -17,7 +17,7 @@ public class Fajlbairas {
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formazottDatum = df.format(datum);
 
-        String sor = String.format("%f,%s", qrCodeEredmeny, formazottDatum);
+        String sor = String.format("%s,%s", qrCodeEredmeny, formazottDatum);
 
         String state = Environment.getExternalStorageState();
 
